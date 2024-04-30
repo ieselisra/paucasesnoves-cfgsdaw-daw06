@@ -78,6 +78,9 @@ class Nou {
             // Muestra un mensaje de error
             echo '<script>alert("Error al crear el producto.");</script>';
         }
+
+        // Cierra la conexión a la base de datos
+        $conexion->close();
     }
 }
 
