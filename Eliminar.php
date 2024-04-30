@@ -1,6 +1,6 @@
 <?php
 
-class Elimina {
+class Eliminar {
     // Método para eliminar un producto
     public function eliminarProducto() {
         // Obtiene el ID del producto a eliminar
@@ -28,7 +28,7 @@ class Elimina {
 }
 
 // Crea una instancia de la clase Elimina
-$eliminarProducto = new Elimina();
+$eliminarProducto = new Eliminar();
 $eliminarProducto->eliminarProducto();
 
 ?>
