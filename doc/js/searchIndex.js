@@ -46,11 +46,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Elimina.html"
         },                {
-            "fqsen": "\\Elimina\u003A\u003AmostrarFormularioEliminar\u0028\u0029",
-            "name": "mostrarFormularioEliminar",
-            "summary": "",
-            "url": "classes/Elimina.html#method_mostrarFormularioEliminar"
-        },                {
             "fqsen": "\\Elimina\u003A\u003AeliminarProducto\u0028\u0029",
             "name": "eliminarProducto",
             "summary": "",
