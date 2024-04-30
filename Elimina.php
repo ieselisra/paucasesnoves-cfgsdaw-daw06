@@ -4,7 +4,7 @@ class Elimina {
     // Método para eliminar un producto
     public function eliminarProducto() {
         // Obtiene el ID del producto a eliminar
-        $idProducto = $_POST['id'];
+        $idProducto = $_GET['id'];
 
         // Realiza la consulta para eliminar el producto
         $consulta = "DELETE FROM productes WHERE id = $idProducto";
