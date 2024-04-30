@@ -21,6 +21,9 @@ class Elimina {
             // Muestra un mensaje de error
             echo '<script>alert("S\'ha produït un error en eliminar el producte.");</script>';
         }
+
+        // Cierra la conexión a la base de datos
+        $conexion->close();
     }
 }
 
